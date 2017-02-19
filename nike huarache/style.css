@@ -1,0 +1,15 @@
+.relative {
+	background: yellow;
+}
+.dib1 .db1 {
+	background: black;
+	border: 1px solid white;
+	width: 100px;
+	height: 100px;
+}
+.dib1 {
+	display: inline-block;
+}
+.db1 {
+	
+}
