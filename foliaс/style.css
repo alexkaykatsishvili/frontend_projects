@@ -1,0 +1,274 @@
+html {
+	background-color: #f9f9f9;
+}
+/* ********************************  HEADER  **************************** */
+header {
+	height: 650px;
+	width: 1920px;
+	background-image: url(images/header_img.png);
+	margin: 0 auto;
+}
+.opasity {
+	background-color: rgba(60, 73, 85, 0.86);
+	height: 650px;
+}
+header div img {
+	margin-left: 390px;
+	margin-top: 36px;
+}
+.toolbar ul {
+	margin-top: 69px;
+	margin-left: 400px;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+	padding: 0 50px 20px 0;
+}
+.toolbar li:after {
+	padding-left: 30px;
+	content: '/';
+}
+.toolbar a {
+	text-decoration: none;
+	color: #f2f3f3;
+}
+.info {
+	margin-top: 150px;
+}
+.topline {
+	display: inline-block;
+	vertical-align: middle;
+}
+.voici {
+	font-family: BigJohn;
+	color:  #ffffff;
+	font-size: 46px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+.untemp {
+	/* Встроенный стиль */
+	font-family: SlimJoe;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+}
+.info button {
+	border-radius: 3px;
+	border-width: 2px;
+	border-color:  #48bf72;
+	border-style: solid;
+	width: 134px;
+	height: 35px;
+	font-family: Lato;
+	color:  #48bf72;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin: 10px 0 20px 890px;
+	background: none;
+	cursor: pointer;
+}
+/* ********************************  MAIN  **************************** */
+.images_ib {
+	display: inline-block;
+	vertical-align: top;
+}
+.content {
+	width: 1920px;
+	margin: 0 auto;
+}
+.slider {
+	width: 1140px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.man {
+	height: 500px;
+	width: 1920px;
+	background-image: url(images/man.png);
+	margin: 0 auto;
+}
+.images_ib_1 {
+	margin: 0 0 0 0;
+}
+.images_ib_2 {
+	margin: 0 0 0 36px;
+}
+.images_ib_3 {
+	margin: -105px 0 0 0;
+}
+.images_ib_4 {
+	margin: 30px 0 0 36px;
+}
+.dev_side div {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 16px;
+}
+.dev_side {
+	width: 665px;
+	margin: 50px auto;
+}
+.dev_side button {
+	border-radius: 2px;
+	background-color:  #eaeaea;
+	height: 32px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+.manwr {
+	width: 415px;
+	margin: 0px 0 0 980px;
+	padding-top: 90px;
+}	
+.name {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.ocupation {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.text {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.MC {
+	border-radius: 3px;
+	border-width: 2px;
+	border-color:  #3c4955;
+	border-style: solid;
+	width: 148px;
+	height: 35px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	background: none;
+	cursor: pointer;
+}
+.mecont p {
+	font-family: BigJohn;
+	color:  #48bf72;
+	font-size: 26px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.mecont {
+	margin: 50px 610px;
+}
+.mecont button {
+	border-radius: 3px;
+	background-color:  #48bf72;
+	width: 700px;
+	height: 50px;
+	border: none;
+	margin-top: 30px;
+	cursor: pointer;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+
+/* ********************************  FOOTER  **************************** */
+footer {
+	margin: 0 auto;
+	background-color: #3c4955;
+	width: 1920px;
+	height: 201px;
+}
+.copy {
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin: 0 0 0 390px;
+	padding-top: 90px;
+	display: inline-block;
+}
+.social {
+	display: inline-block;
+	margin: 0 0px 0 490px;
+	vertical-align: middle;
+}
+.social1 {
+	display: inline-block;
+}
+.social1 img {
+	margin-left: 42px;
+}
+.ti1 {
+	border-radius: 3px;
+	border-width: 2px;
+	border-color:  #3c4955;
+	border-style: solid;
+	background-color:  #f1f1f1;
+	width: 335px;
+	height: 46px;
+	font-family: Lato;
+	color:  #a6a5a5;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.ti3 {
+	border-radius: 3px;
+	border-width: 2px;
+	border-color:  #3c4955;
+	border-style: solid;
+	background-color:  #f1f1f1;
+	width: 700px;
+	height: 224px;
+}
+.inlinp {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+input {
+	font-family: Lato;
+	color:  #a6a5a5;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.align {
+	width: 700px;
+	margin: 0 auto;
+}
