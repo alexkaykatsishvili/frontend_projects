@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<div class="main__form">
+				<div class="main__info-1">
+					<img src="key.png">
+					<p class="main__title">Create your free account</p>
+				</div>
+				<div class="main__info-2">
+					<p>Come and join our cool and amazing community, fill in 	your details to get started. Already have an account? 
+						<a href="#">Log in.</a>
+					</p>
+				</div>
+				<div class="main__reg">
+					<form method="post" action="mail.php" onSubmit="return checkForm(this)">
+						<input type="text" name="first_name" placeholder="First name" class="input_fam">
+						<input type="text" name="last_name" placeholder="Last name" class="input_fam ln"><br>
+						<input type="email" name="email" placeholder="Email address" class="input_sec"><br>
+						<input type="password" name="password" placeholder="Password" class="input_sec"><br>
+						<button name="submit">Sing up for free</button>
+					</form>
+				</div>
+				<div class="main__last-sign">
+					<p>By clicking on "Sign up for free", you agree to the <a href="#">Terms of Service</a> and the <a href="#">Privace Policy</a>
+					</p>
+				</div>
+			</div>
+			<script>
+   function checkForm(form) {
+ 
+      var first_name = form.first_name.value;
+      var n = name.match(/^[A-Za-zА-Яа-я ]*[A-Za-zА-Яа-я ]+$/);
+      if (!n) {
+         alert("Имя введено неверно, пожалуйста исправьте ошибку");
+         return false;
+      }
+ 
+      var last_name = form.last_name.value;
+      var p = phone.match(/^[A-Za-zА-Яа-я ]*[A-Za-zА-Яа-я ]+$/);
+      if (!p) {
+         alert("Имя введено неверно, пожалуйста исправьте ошибку");
+         return false;
+      }
+ 
+      var email = form.email.value;
+      var m = mail.match(/^[A-Za-z0-9][A-Za-z0-9\._-]*[A-Za-z0-9_]*@([A-Za-z0-9]+([A-Za-z0-9-]*
+      [A-Za-z0-9]+)*\.)+[A-Za-z]+$/);
+      if (!m) {
+         alert("E-mail введен неверно, пожалуйста исправьте ошибку");
+         return false;
+      }
+      return true;
+   }
+</script>
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+</html>
