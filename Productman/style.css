@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+body {
+	width: 1500px;
+	height: 2664px;
+	background-color: #eeeeee;
+}
+li {
+	list-style-type: none;
+	display: inline;
+}
+.hd {
+	display: inline-block;
+}
+.first_info {
+	display: inline-block;
+	height: 258px;
+	width: 618px;
+}
+.fp {
+	font-family: 'Roboto', sans-serif;
+	color:  #303030;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin: 48px 0 0 150px;
+}
+.fl {
+	font-family: 'Roboto', sans-serif;
+	color:  #303030;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin:48px 0 0 577px;
+}
+a {
+	text-decoration: none;
+	margin-right: 50px;
+}
+.BW {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 150px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	line-height: 150px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-bottom: 50px;
+}
+.flor {
+	font-family: 'Roboto', sans-serif;
+	color:  #303030;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+	text-align: right;
+}
+.view {
+	font-family: 'Roboto', sans-serif;
+	color:  #e10011;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+	text-align: right;
+}
+.headphone {
+	margin-left: 100px;
+	display: inline-block;
+}
+.firstpart{
+	margin: 0 200px;
+}
+.maindiv {
+	height: 1193px;
+	width: 1198px;
+	border-radius: 5px;
+	background-color:  #ffffff;
+	margin: 170px auto 50px;
+}
+.FP {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	line-height: 150px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.L2 {
+	height: 42px;
+	width: 551px;
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin: 0 auto;
+} 
+.image {
+	background-color: #eee;
+}
+.maindiv1 {
+	margin-bottom: 50px;
+}
+footer {
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+.br5 {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.PN {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	line-height: 150px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.L3 {
+	font-family: 'Raleway', sans-serif;
+	color:  #303030;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+button {
+	width: 210px; height: 85px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: #e10011;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	text-align: center;
+}
+input {
+	width: 495px;
+	height: 85px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	font-family: 'Raleway', sans-serif;
+	color:  #979797;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 600;
+	font-style: italic;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
