@@ -1,0 +1,69 @@
+img {
+	transition: all .1s ease-in;
+}
+html {
+	width: 1600px;
+	height: 1400px;
+	background: #e2e7ec;
+}
+#main-item {
+	width: 740px;
+	background: url(images/car.png);
+}
+.flex-container {
+	display: flex;
+	width: 1120px;
+	height: 1100px;
+	margin: 0 auto;
+	margin-top: 91px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.flex-items {
+	height: 540px;
+	width: 360px;
+	background: #fff;
+	position: relative;
+	
+}
+.data {
+	color:  #818181;
+	font-size: 13px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	line-height: 30px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-left: 28px;
+	margin-top: 28px;
+	margin-bottom: 0px;
+}
+.information {
+	color:  #1d1c1c;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 30px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-left: 28px;
+	margin-top: 3px;
+}
+.intro {
+	position: absolute;
+	bottom: 25px;
+	left: 28px;
+}
+.dif {
+	margin-top: 60px;
+}
+.info {
+	position: absolute;
+	bottom: 40px;
+}
+.anth-info {
+	color:  #fff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+img:hover {
+	opacity: 0.8;
+}
