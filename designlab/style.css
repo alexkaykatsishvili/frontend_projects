@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body {
+    font: 300 16px/1.5 'Lato', Arial, sans-serif;
+    color: #3c3c3c;
+}
+div {
+	margin: 0 auto;
+}
+/* Topography */
+a, 
+input [type="submit"],
+input [type="button"],
+button {
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    transition: color .3s ease-in;
+}
+input [type="submit"],
+input [type="button"],
+button,
+.ba-button {
+    display: inline-block;
+}
+.ba-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 940px;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    letter-spacing: .16em;
+    line-height: 1.3;
+}
+p {
+    margin: 0 0 25px;
+}
+
+.ba-container--hero {
+    max-width: 640px;
+}
+.ba-header {
+    background: #adb8cc url(images/hero-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 284px 0 384px;
+    min-height: 100vh;
+    font-size: 15px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    line-height: 2;
+    position: relative;
+}
+.ba-logo {
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.ba-header__title {
+    text-transform: uppercase;
+    font-size: 54px;
+    margin: 0 0 35px;
+}
+.ba-scroll {
+    display: block;
+    width: 23px;
+    height: 37px;
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    margin-left: -12px;
+    background: url(images/scroll.svg) 50% no-repeat;
+}
+.ba-scroll:hover {
+    opacity: .6;
+}
+/* About */
+.ba-about {
+    padding: 160px 0;
+}
+.ba-box {
+    border: 2px solid #3c3c3c;
+    border-width: 0 2px 2px;
+    padding: 70px 180px 26px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+.ba-box:before,
+.ba-box:after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #3c3c3c;
+    width: 22%;
+    top: 0;
+}
+.ba-box:before {
+    left: 0;
+}
+.ba-box:after {
+    right: 0;
+}
+.ba-box:last-child {
+    margin-bottom: 0;
+}
+.ba-box--light {
+    border-color: #fff;
+}
+.ba-box--light:before, .ba-box--light:after {
+    background-color: #fff;
+}
+.ba-box__title {
+    font-size: 34px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 24%;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    width: 52%;
+    transform: translateY(-50%);
+}
+/* Services */
+.ba-section {
+    padding: 130px 0 110px;
+}
+.ba-section--services {
+    background: #adb8cc url(images/services.jpg.jpg) 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+}
